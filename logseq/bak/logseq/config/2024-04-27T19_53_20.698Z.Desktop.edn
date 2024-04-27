@@ -424,4 +424,4 @@
  :feature/enable-flashcards? false
  :default-home {:page "home"}
  :publishing/all-pages-public? false
- :graph/settings {:orphan-pages? true}}
+ :graph/settings {:orphan-pages? false}}
