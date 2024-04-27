@@ -423,4 +423,4 @@
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false
  :default-home {:page "home"}
- :publishing/all-pages-public? false}
+ :publishing/all-pages-public? true}
