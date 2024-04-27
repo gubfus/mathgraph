@@ -12,7 +12,7 @@ jobs:
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀        
-      - uses: logseq/publish-spa@main
+        uses: logseq/publish-spa@main
         with:
           folder: www
           graph-directory: my-logseq-notes
