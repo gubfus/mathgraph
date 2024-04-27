@@ -11,7 +11,10 @@ jobs:
       - uses: logseq/publish-spa@v0.3.0
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy 🚀        
+      - uses: logseq/publish-spa@main
         with:
           folder: www
+          graph-directory: my-logseq-notes
+          output-directory: out
+          version: nightly
