@@ -14,7 +14,5 @@ jobs:
       - name: Deploy 🚀        
         uses: logseq/publish-spa@main
         with:
-          folder: www
-          graph-directory: my-logseq-notes
-          output-directory: out
-          version: nightly
+          output-directory: www
+          theme-mode: dark
