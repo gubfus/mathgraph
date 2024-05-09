@@ -1,0 +1,30 @@
+public:: true
+
+- type:: exercise
+- In Worten: Falls das additiv Inverse einer Zahl kleiner/größer (Achtung: invers zu sein ist relativ -> sowohl $a$ als auch $-a$ können als Inverses betrachtet werden) ist als die Zahl selbst, ist dieses sofort kleiner/größer als $0$.
+- Scheint trivial zu sein, aber mir war nicht auf Anhieb klar, wie das ohne Multiplikation gezeigt werden kann.
+	- Mit Multiplikation/Division gilt: $$-a < a \Leftrightarrow 0 < 2a \Leftrightarrow  0 < a$$
+- $-a < 0 < a \Rightarrow -a < a$ ist mit der Transitivität trivial. Die Rückrichtung aber nicht.
+- Ersichtlich, aber trotzdem interessant ist, dass aus den Forderungen der Ordnungsrelation (hier: Trichotomie und Monotonie) der Platz der $0$ sofort bestimmt ist.
+	- Nämlich : $$0 < a \Leftrightarrow -a < 0$$ bzw. $$ 0 < -a \Leftrightarrow a < 0$$
+	- Heißt $a \neq 0$ muss kleiner/größer $0$ sein (Trichotomie) und durch Addition von $-a$ bzw. $a$ folgt mit der Monotonie, dass $0$ zwischen den zwei Inversen liegt.
+	- Gleiches gilt auch für die Multiplikation und die $1$ als neutrales Element.
+	- Heißt die Forderung nach Invertierung und "Ordnung" ergibt sofort die Position des neutralen Elements, unabhängig der Verknüpfungsart.
+- Das ist aber noch nicht das was gezeigt werden soll, weil ja $0 <a$ angenommen wurde.
+	- NACHTRAG: Doch das ist es schon! Mit der Trichotomie MUSS eine Annahme zutreffen. In Verbindung mit $-a < a$ kann nur noch $0<a$ gelten, was äquivalent zu $-a<0$ ist weil $-a < 0 = 0 < a$ sonst nicht erfüllt wäre.
+- Hier der Ansatz:
+	- Angenommen wird $-a < a$
+	- $$\exists x \in M: -a < a \Leftrightarrow -a < x \leq a$$
+	- Mindestens $a$ erfüllt die Ungleichung und $a$ existiert ja per Annahme. Subtrahiert man $x$ folgt:
+	- $$-a-x < 0 \leq a-x$$
+	- Bei Addition von $a$ folgt im ersten Teil: $-x < a$
+	- Bei Addition von $x$ folgt dann: $0 < a +x$
+	- Es gilt also sowohl $0 < a +x$, als auch $0 \leq a - x$, das heißt
+		- $$-x < a \text{ UND } x \leq a$$
+	- Mit der Trichotomie gilt: $-x < 0 \Leftrightarrow 0 < x$ ODER $x < 0 \Leftrightarrow 0 < -x$
+	- Im Ersten Fall gilt dann also:
+		- $$-x < 0 < x \leq a$$
+	- Im Zweiten Fall:
+		- $$x < 0 < -x \leq a$$
+	- In Beiden Fällen ist $a$ größer $0$ und $x$ ja per Annahme (erste Zeile) größer als $-a$, was zu Folge hat, dass $-a < 0 < a$ gilt.
+	- NACHTRAG: VIEL ZU UMSTÄNDLICH, DIE TRICHOTOMIE MIT DER ANNAHME $-a < a$ FÜHRT SOFORT ZU $-a < 0 < a$, WEIL $a$ KLEINER ODER GRÖSSER ALS $0$ SEIN MUSS.

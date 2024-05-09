@@ -1,0 +1,28 @@
+public:: true
+
+- ## What this knowledge graph is (not)
+	- this is not a wiki but a stripped down version of a personal dynamic pool of interrelated notes to my work with mathematical topics
+	- this graph has **no teaching purposes** at all and doesn't claim to be correct. Feel free to contact me if you find major and minor issues within the graph and my assuptions.
+	- ### this might be for you if
+		- you are a student yourself and look for a different point of view and associations on some fundamental math concepts
+		- you are interested in how these concepts correlate with each other
+	- ### this might not be for you if
+		- you are looking for a wiki
+		- you are looking for tutorials and structured explanations
+		-
+- ## How to guide (how it might be useful for you)
+	- ### explore the graph via ...
+		- ### graph view
+			- check the graph view and explore some concepts and their connections
+			- **GRAPH VIEW ON MOBILE IS NOT WELL DEVELOPED!**
+		- ###  link paths
+			- just follow the links, like in a normal wiki
+	- ### text search
+		- text search for whatever you are looking for, maybe you find something
+	- ### exercises and questions
+		- the graph exists, because I need to learn math myself, hence you will find different exercises and questions
+		- mathematical understanding wont evolve just by thinking and reading... i hope it does by doing
+- ## Annotations
+	- The whole knowledge graph is written in german, because I have to work on the related topics in my mother tongue. An english version is currently not planned.
+	- Again there is no guarantee, that any thought in here is mathematically correct! Being wrong is part of learning ;)
+	- Check out *loqseq* - the free and opensource note software this graph is made with.
